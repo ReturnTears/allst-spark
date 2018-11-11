@@ -34,8 +34,8 @@ public class JavaWc {
 
         SparkConf conf = new SparkConf().setAppName("JavaWc").setMaster("local[2]");
         JavaSparkContext sc = new JavaSparkContext(conf);
-
-        JavaRDD<String> lines = sc.textFile(args[0], 1);
+        // 需要指定参数 : 文件目录和分区数
+        JavaRDD<String> lines = sc.textFile(args[0], Integer.parseInt(args[1]));
 
         JavaRDD<String> words = lines.flatMap(new FlatMapFunction<String, String>() {
             @Override
