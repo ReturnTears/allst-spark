@@ -7,7 +7,6 @@ import org.apache.spark.api.java.JavaSparkContext;
 import org.apache.spark.api.java.function.Function;
 import org.apache.spark.api.java.function.Function2;
 import org.apache.spark.storage.StorageLevel;
-import org.slf4j.Logger;
 import scala.Tuple2;
 
 import java.util.Arrays;
@@ -26,6 +25,7 @@ public class LocaFileDemo {
 //        SparkContext sc = new SparkContext(conf);
         JavaSparkContext sc = new JavaSparkContext(conf);
         testSpark04(sc);
+        sc.stop();
     }
 
     /**
