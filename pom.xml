@@ -49,6 +49,34 @@
       <version>2.2.0</version>
       <scope>runtime</scope>
     </dependency>
+      <dependency>
+          <groupId>org.apache.spark</groupId>
+          <artifactId>spark-hive_2.11</artifactId>
+          <version>2.2.0</version>
+          <scope>provided</scope>
+          <exclusions>
+              <exclusion>
+                  <groupId>org.spark-project.hive</groupId>
+                  <artifactId>hive-exec</artifactId>
+              </exclusion>
+          </exclusions>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.spark</groupId>
+          <artifactId>spark-catalyst_2.11</artifactId>
+          <version>2.2.0</version>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.spark</groupId>
+          <artifactId>spark-repl_2.11</artifactId>
+          <version>2.2.0</version>
+          <scope>provided</scope>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.spark</groupId>
+          <artifactId>spark-graphx_2.11</artifactId>
+          <version>2.2.0</version>
+      </dependency>
   </dependencies>
 
   <build>
