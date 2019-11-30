@@ -1,4 +1,4 @@
-package com.allst.spark.demo;
+package com.allst.va.demo;
 
 import org.apache.spark.api.java.function.FilterFunction;
 import org.apache.spark.sql.Dataset;

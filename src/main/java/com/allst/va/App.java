@@ -1,4 +1,4 @@
-package com.allst.spark;
+package com.allst.va;
 
 /**
  * Hello world!

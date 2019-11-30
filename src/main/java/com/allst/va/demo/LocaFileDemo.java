@@ -1,4 +1,4 @@
-package com.allst.spark.demo;
+package com.allst.va.demo;
 
 import org.apache.spark.SparkConf;
 import org.apache.spark.api.java.JavaPairRDD;

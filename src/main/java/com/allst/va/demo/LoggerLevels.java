@@ -1,4 +1,4 @@
-package com.allst.spark.demo;
+package com.allst.va.demo;
 
 /**
  * 重定义日志类
