@@ -56,3 +56,12 @@ ca包及其子包都是存放Scala语言开发的程序
 local包用于运行在Windows10本地的Hadoop和Spark环境中
 master包用于运行在Centos7下Hadoop和Spark集群环境中
 ```
+
+## issue
+```text
+Git报错解决：fatal: unable to access 'https://github.com/.......': OpenSSL SSL_read: Connection was reset, errno 10054
+
+解除ssl验证后，再次git即可
+git config --global http.sslVerify "false"
+
+```
