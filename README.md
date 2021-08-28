@@ -1,8 +1,7 @@
 # Spark的复习
 
 ## Spark
-
-```
+```text
 spark-shell在spark中启动Spark的REPL的模式
 在这里可以写Scala的命令行来操作Spark
 
@@ -43,38 +42,15 @@ Wide dependency : 宽依赖,子RDD对父RDD中的所有数据分区都有依赖
 Caching management : 缓存管理, 对RDD的中间计算结果进行缓存管理, 以加快整体的处理速度
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ```
+
+## plan
+```text
+scala + spark
+```
+
 ## Code
-```
+```text
 va包及其子包都是存放Java语言开发的程序
 ca包及其子包都是存放Scala语言开发的程序
 local包用于运行在Windows10本地的Hadoop和Spark环境中
