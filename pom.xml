@@ -17,7 +17,7 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <java.version>1.8</java.version>
-    <spark-version>3.0.1</spark-version>
+    <spark-version>3.4.0</spark-version>
   </properties>
 
   <dependencies>
